@@ -7,4 +7,8 @@
     <string name="Password">Password</string>
     <string name="email_hint">xyz@gmail.com</string>
     <string name="password_hint">********</string>
+    <string name="Log_in">Log in</string>
+    <string name="recover">Recover password</string>
+    <string name="first_time">First time?</string>
+    <string name="create_user">Create user</string>
 </resources>

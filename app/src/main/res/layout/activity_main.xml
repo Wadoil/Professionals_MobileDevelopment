@@ -16,17 +16,17 @@
         android:textColor="#000000"
         android:textSize="48sp"
         tools:layout_editor_absoluteX="88dp"
-        tools:layout_editor_absoluteY="135dp" />
+        tools:layout_editor_absoluteY="74dp" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppins"
-        android:text="@string/fill_data_text"
+        android:text="@string/continue_with_sm_text"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="110dp"
-        tools:layout_editor_absoluteY="211dp" />
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="181dp" />
 
     <TextView
         android:id="@+id/textView4"
@@ -37,35 +37,22 @@
         android:textColor="#000000"
         android:textSize="24sp"
         tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="305dp" />
+        tools:layout_editor_absoluteY="244dp" />
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/raleway_medium"
-        android:text="@string/Password"
-        android:textColor="#000000"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="421dp" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/poppins"
-        android:text="@string/continue_with_sm_text"
-        android:textSize="24sp"
-        tools:layout_editor_absoluteX="41dp"
-        tools:layout_editor_absoluteY="242dp" />
+    <Button
+        android:id="@+id/button"
+        android:layout_width="335dp"
+        android:layout_height="55dp"
+        android:text="@string/Log_in"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="517dp" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="340dp"
         android:layout_height="56dp"
         app:passwordToggleEnabled="false"
         tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="351dp">
+        tools:layout_editor_absoluteY="290dp">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="335dp"
@@ -84,7 +71,7 @@
         android:layout_height="66dp"
         app:passwordToggleEnabled="true"
         tools:layout_editor_absoluteX="42dp"
-        tools:layout_editor_absoluteY="467dp">
+        tools:layout_editor_absoluteY="406dp">
 
         <EditText
             android:id="@+id/editTextTextPassword2"
@@ -97,5 +84,65 @@
             android:inputType="textPassword"
             android:textSize="24sp" />
     </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway_medium"
+        android:text="@string/Password"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="@string/fill_data_text"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="150dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="335dp"
+        android:layout_height="55dp"
+        android:text="@string/Log_in"
+        tools:layout_editor_absoluteX="45dp"
+        tools:layout_editor_absoluteY="517dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:text="@string/recover"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="472dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway_medium"
+        android:text="@string/create_user"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="208dp"
+        tools:layout_editor_absoluteY="672dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway_medium"
+        android:text="@string/first_time"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="672dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
