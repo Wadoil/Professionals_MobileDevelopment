@@ -3,4 +3,8 @@
     <string name="welcome_message">Welcome!</string>
     <string name="fill_data_text">Fill Your Data Or</string>
     <string name="continue_with_sm_text">Continue With Social Media</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="email_hint">xyz@gmail.com</string>
+    <string name="password_hint">********</string>
 </resources>
