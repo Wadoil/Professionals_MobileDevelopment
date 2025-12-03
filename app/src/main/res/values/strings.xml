@@ -11,4 +11,12 @@
     <string name="recover">Recover password</string>
     <string name="first_time">First time?</string>
     <string name="create_user">Create user</string>
+
+    <string name="registration">Registration</string>
+    <string name="your_name">Your name</string>
+    <string name="name_hint">xxxxxxxx</string>
+    <string name="have_an_account">have an account?</string>
+    <string name="enter">Enter</string>
+    <string name="personal_data_agreement">I agree to the processing of personal data</string>
+    <string name="register">Register</string>
 </resources>

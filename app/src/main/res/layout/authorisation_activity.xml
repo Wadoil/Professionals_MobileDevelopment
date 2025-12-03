@@ -39,20 +39,15 @@
         tools:layout_editor_absoluteX="41dp"
         tools:layout_editor_absoluteY="244dp" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="335dp"
-        android:layout_height="55dp"
-        android:text="@string/Log_in"
-        tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="517dp" />
-
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="340dp"
         android:layout_height="56dp"
+        app:boxBackgroundColor="#F5F5F7"
+        app:boxBackgroundMode="outline"
         app:passwordToggleEnabled="false"
         tools:layout_editor_absoluteX="42dp"
         tools:layout_editor_absoluteY="290dp">
+
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="335dp"
@@ -69,6 +64,7 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="349dp"
         android:layout_height="66dp"
+        app:boxBackgroundColor="#F5F5F7"
         app:passwordToggleEnabled="true"
         tools:layout_editor_absoluteX="42dp"
         tools:layout_editor_absoluteY="406dp">
@@ -110,9 +106,10 @@
         android:id="@+id/button2"
         android:layout_width="335dp"
         android:layout_height="55dp"
+        android:backgroundTint="#48B1E6"
         android:text="@string/Log_in"
-        tools:layout_editor_absoluteX="45dp"
-        tools:layout_editor_absoluteY="517dp" />
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="581dp" />
 
     <TextView
         android:id="@+id/textView6"
