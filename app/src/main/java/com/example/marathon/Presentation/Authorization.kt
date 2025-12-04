@@ -1,6 +1,9 @@
 package com.example.marathon.Presentation
 
+import android.content.Context
+import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -17,5 +20,12 @@ class Authorization : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+    }
+    // 13:40
+    // Бурибо Кирилл
+    // Переход в активность регистрации
+    fun onLoginButtonClick(view: View){
+        val intent = Intent(this,Registration::class.java)
+        startActivity(intent)
     }
 }

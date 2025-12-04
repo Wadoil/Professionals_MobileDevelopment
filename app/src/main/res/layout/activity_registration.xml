@@ -139,6 +139,7 @@
         android:layout_width="59dp"
         android:layout_height="62dp"
         android:backgroundTint="#00FFFFFF"
+        android:onClick="onGobackButtonClick"
         app:srcCompat="@drawable/gobackicon"
         tools:layout_editor_absoluteX="30dp"
         tools:layout_editor_absoluteY="32dp" />
