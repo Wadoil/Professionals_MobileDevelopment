@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".Presentation.Authorization">
 
     <TextView
@@ -106,7 +107,7 @@
         android:id="@+id/button2"
         android:layout_width="335dp"
         android:layout_height="55dp"
-        android:backgroundTint="#48B1E6"
+        android:backgroundTint="@color/button_cyan"
         android:text="@string/Log_in"
         tools:layout_editor_absoluteX="47dp"
         tools:layout_editor_absoluteY="581dp" />

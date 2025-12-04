@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context=".Presentation.Registration">
 
     <com.google.android.material.textfield.TextInputLayout
@@ -128,10 +129,19 @@
         android:id="@+id/button4"
         android:layout_width="335dp"
         android:layout_height="55dp"
-        android:backgroundTint="#48B1E6"
+        android:backgroundTint="@color/button_cyan"
         android:text="@string/register"
         tools:layout_editor_absoluteX="45dp"
         tools:layout_editor_absoluteY="598dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="59dp"
+        android:layout_height="62dp"
+        android:backgroundTint="#00FFFFFF"
+        app:srcCompat="@drawable/gobackicon"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="32dp" />
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="340dp"
