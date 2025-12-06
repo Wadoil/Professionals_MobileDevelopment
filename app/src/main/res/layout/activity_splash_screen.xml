@@ -5,6 +5,29 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/splashscreen_color"
     tools:context=".Presentation.SplashScreen">
 
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway_bold"
+        android:text="TextView"
+        android:textColor="@color/white"
+        android:textSize="48dp"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="311dp"
+        tools:text="@string/Matule" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway_medium"
+        android:text="@string/Me"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="280dp"
+        tools:layout_editor_absoluteY="311dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
