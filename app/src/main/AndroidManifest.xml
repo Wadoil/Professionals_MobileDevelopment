@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Marathon">
         <activity
+            android:name=".Presentation.SplashScreen"
+            android:exported="false" />
+        <activity
             android:name=".Presentation.ForgotPassword"
             android:exported="false" />
         <activity
