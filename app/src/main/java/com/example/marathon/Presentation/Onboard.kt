@@ -1,6 +1,8 @@
 package com.example.marathon.Presentation
 
+import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -17,5 +19,12 @@ class Onboard : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+    }
+    // 13:30
+    // Бурибо Кирилл
+    // Переход на вторую страницу онборда
+    fun onStartButtonClick(view: View){
+        val intent = Intent(this,Onboard1::class.java)
+        startActivity(intent)
     }
 }

@@ -41,6 +41,7 @@
         android:layout_height="63dp"
         android:backgroundTint="@color/white"
         android:fontFamily="@font/raleway_medium"
+        android:onClick="onStartButtonClick"
         android:text="@string/start"
         android:textColor="@color/black"
         android:textSize="24sp"
