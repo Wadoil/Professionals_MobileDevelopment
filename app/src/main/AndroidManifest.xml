@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Marathon">
         <activity
+            android:name=".Presentation.ActivityOnboard2"
+            android:exported="false" />
+        <activity
             android:name=".Presentation.Onboard1"
             android:exported="false" />
         <activity

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splashscreen_color"
+    tools:context=".Presentation.ActivityOnboard2">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/frame_1000000730__2_"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="526dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway_medium"
+        android:text="@string/power"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="385dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="339dp"
+        android:layout_height="40dp"
+        android:fontFamily="@font/poppins"
+        android:maxLines="2"
+        android:singleLine="false"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="@color/additional_text"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="443dp"
+        tools:text="@string/plants" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="357dp"
+        android:layout_height="63dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/raleway_medium"
+        android:text="@string/next"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:cornerRadius="14sp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="643dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/image_4"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="107dp" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/misc_04"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="122dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
