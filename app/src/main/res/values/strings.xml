@@ -32,4 +32,6 @@
     <string name="collection">Smart, Gorgeous and Fashionable Collection Explore Now</string>
     <string name="power">You Have the Power To</string>
     <string name="plants">There Are Many Beautiful And Attractive Plants To Your Room</string>
+    <!--main-->
+    <string name="explore">Explore</string>
 </resources>

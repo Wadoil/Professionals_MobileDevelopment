@@ -5,6 +5,64 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/background"
     tools:context=".Presentation.MainActivity">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="300dp"
+        android:layout_height="68dp"
+        app:boxBackgroundColor="#F5F5F7"
+        app:boxBackgroundMode="outline"
+        app:passwordToggleEnabled="false"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="134dp">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="293dp"
+            android:layout_height="59dp"
+            android:backgroundTint="#F5F5F7"
+            android:fontFamily="@font/raleway_medium"
+            android:hint="@string/name_hint"
+            android:password="false"
+            android:singleLine="false"
+            android:textColor="#A2A2A2" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/highlight"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="56dp"
+        android:layout_height="63dp"
+        android:backgroundTint="@color/background"
+        app:srcCompat="@drawable/group_27"
+        tools:layout_editor_absoluteX="321dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="50dp"
+        android:layout_height="51dp"
+        android:backgroundTint="@color/background"
+        app:srcCompat="@drawable/hamburger"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="62dp"
+        android:layout_height="62dp"
+        android:backgroundTint="@color/background"
+        app:srcCompat="@drawable/settingsimg"
+        tools:layout_editor_absoluteX="321dp"
+        tools:layout_editor_absoluteY="140dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
