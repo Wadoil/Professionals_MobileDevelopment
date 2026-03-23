@@ -50,7 +50,7 @@
         tools:layout_editor_absoluteY="449dp">
 
         <EditText
-            android:id="@+id/editTextTextPassword2"
+            android:id="@+id/inputpassword"
             android:layout_width="339dp"
             android:layout_height="49dp"
             android:layout_weight="1"
